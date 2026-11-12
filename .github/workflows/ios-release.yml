@@ -13,7 +13,7 @@ name: iOS Build & Upload to TestFlight
 #   APP_STORE_CONNECT_KEY_ID      - e.g. 6KPH737U27
 #   APP_STORE_CONNECT_ISSUER_ID   - 6de0d408-c678-4c60-9a6f-572cf850399d
 #   APP_STORE_CONNECT_API_KEY_P8  - base64 of the AuthKey_XXXX.p8 file
-# The key needs the Admin role so it may create signing assets.
+# The key needs the Admin role so it may create signing assets (secrets set 12 Nov 2026).
 
 on:
   push:
