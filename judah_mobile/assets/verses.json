@@ -1,0 +1,2980 @@
+{
+ "topics": [
+  {
+   "id": "hope",
+   "label": "Hope"
+  },
+  {
+   "id": "peace",
+   "label": "Peace"
+  },
+  {
+   "id": "strength",
+   "label": "Strength"
+  },
+  {
+   "id": "anxiety",
+   "label": "Anxiety"
+  },
+  {
+   "id": "love",
+   "label": "Love"
+  },
+  {
+   "id": "faith",
+   "label": "Faith"
+  },
+  {
+   "id": "gratitude",
+   "label": "Gratitude"
+  },
+  {
+   "id": "forgiveness",
+   "label": "Forgiveness"
+  },
+  {
+   "id": "wisdom",
+   "label": "Wisdom"
+  },
+  {
+   "id": "comfort",
+   "label": "Comfort"
+  },
+  {
+   "id": "courage",
+   "label": "Courage"
+  },
+  {
+   "id": "identity",
+   "label": "Identity in Christ"
+  },
+  {
+   "id": "patience",
+   "label": "Patience"
+  },
+  {
+   "id": "joy",
+   "label": "Joy"
+  },
+  {
+   "id": "guidance",
+   "label": "Guidance"
+  },
+  {
+   "id": "prayer",
+   "label": "Prayer"
+  },
+  {
+   "id": "gods_presence",
+   "label": "God's presence"
+  }
+ ],
+ "verses": [
+  {
+   "ref": "Jeremiah 29:11",
+   "book": 23,
+   "chapter": 29,
+   "start": 11,
+   "end": 11,
+   "kjv": "For I know the thoughts that I think toward you, saith the LORD , thoughts of peace, and not of evil, to give you an expected end.",
+   "web": "For I know the thoughts that I think toward you,” says Yahweh, “thoughts of peace, and not of evil, to give you hope and a future.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Romans 15:13",
+   "book": 44,
+   "chapter": 15,
+   "start": 13,
+   "end": 13,
+   "kjv": "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope, through the power of the Holy Ghost.",
+   "web": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope, in the power of the Holy Spirit.",
+   "topics": [
+    "hope",
+    "joy"
+   ]
+  },
+  {
+   "ref": "Lamentations 3:22-23",
+   "book": 24,
+   "chapter": 3,
+   "start": 22,
+   "end": 23,
+   "kjv": "It is of the LORD’s mercies that we are not consumed, because his compassions fail not. They are new every morning: great is thy faithfulness.",
+   "web": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Psalm 42:11",
+   "book": 18,
+   "chapter": 42,
+   "start": 11,
+   "end": 11,
+   "kjv": "Why art thou cast down, O my soul? and why art thou disquieted within me? hope thou in God: for I shall yet praise him, who is the health of my countenance, and my God.",
+   "web": "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him, the saving help of my countenance, and my God.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Isaiah 40:31",
+   "book": 22,
+   "chapter": 40,
+   "start": 31,
+   "end": 31,
+   "kjv": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+   "web": "but those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+   "topics": [
+    "hope",
+    "patience"
+   ]
+  },
+  {
+   "ref": "Romans 5:5",
+   "book": 44,
+   "chapter": 5,
+   "start": 5,
+   "end": 5,
+   "kjv": "And hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.",
+   "web": "and hope doesn’t disappoint us, because God’s love has been poured into our hearts through the Holy Spirit who was given to us.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Hebrews 6:19",
+   "book": 57,
+   "chapter": 6,
+   "start": 19,
+   "end": 19,
+   "kjv": "Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil;",
+   "web": "This hope we have as an anchor of the soul, a hope both sure and steadfast and entering into that which is within the veil;",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Psalm 39:7",
+   "book": 18,
+   "chapter": 39,
+   "start": 7,
+   "end": 7,
+   "kjv": "And now, Lord, what wait I for? my hope is in thee.",
+   "web": "Now, Lord, what do I wait for? My hope is in you.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Romans 8:28",
+   "book": 44,
+   "chapter": 8,
+   "start": 28,
+   "end": 28,
+   "kjv": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+   "web": "We know that all things work together for good for those who love God, for those who are called according to his purpose.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Psalm 33:22",
+   "book": 18,
+   "chapter": 33,
+   "start": 22,
+   "end": 22,
+   "kjv": "Let thy mercy, O LORD , be upon us, according as we hope in thee.",
+   "web": "Let your loving kindness be on us, Yahweh, since we have hoped in you.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Proverbs 23:18",
+   "book": 19,
+   "chapter": 23,
+   "start": 18,
+   "end": 18,
+   "kjv": "For surely there is an end; and thine expectation shall not be cut off.",
+   "web": "Indeed surely there is a future hope, and your hope will not be cut off.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "1 Peter 1:3",
+   "book": 59,
+   "chapter": 1,
+   "start": 3,
+   "end": 3,
+   "kjv": "Blessed be the God and Father of our Lord Jesus Christ, which according to his abundant mercy hath begotten us again unto a lively hope by the resurrection of Jesus Christ from the dead,",
+   "web": "Blessed be the God and Father of our Lord Jesus Christ, who according to his great mercy caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Psalm 71:14",
+   "book": 18,
+   "chapter": 71,
+   "start": 14,
+   "end": 14,
+   "kjv": "But I will hope continually, and will yet praise thee more and more.",
+   "web": "But I will always hope, and will add to all of your praise.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Romans 12:12",
+   "book": 44,
+   "chapter": 12,
+   "start": 12,
+   "end": 12,
+   "kjv": "Rejoicing in hope; patient in tribulation; continuing instant in prayer;",
+   "web": "rejoicing in hope; enduring in troubles; continuing steadfastly in prayer;",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "Micah 7:7",
+   "book": 32,
+   "chapter": 7,
+   "start": 7,
+   "end": 7,
+   "kjv": "Therefore I will look unto the LORD ; I will wait for the God of my salvation: my God will hear me.",
+   "web": "But as for me, I will look to Yahweh. I will wait for the God of my salvation. My God will hear me.",
+   "topics": [
+    "hope"
+   ]
+  },
+  {
+   "ref": "John 14:27",
+   "book": 42,
+   "chapter": 14,
+   "start": 27,
+   "end": 27,
+   "kjv": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
+   "web": "Peace I leave with you. My peace I give to you; not as the world gives, I give to you. Don’t let your heart be troubled, neither let it be fearful.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Philippians 4:7",
+   "book": 49,
+   "chapter": 4,
+   "start": 7,
+   "end": 7,
+   "kjv": "And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+   "web": "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Isaiah 26:3",
+   "book": 22,
+   "chapter": 26,
+   "start": 3,
+   "end": 3,
+   "kjv": "Thou wilt keep him in perfect peace, whose mind is stayed on thee: because he trusteth in thee.",
+   "web": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Psalm 4:8",
+   "book": 18,
+   "chapter": 4,
+   "start": 8,
+   "end": 8,
+   "kjv": "I will both lay me down in peace, and sleep: for thou, LORD , only makest me dwell in safety.",
+   "web": "In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Numbers 6:24-26",
+   "book": 3,
+   "chapter": 6,
+   "start": 24,
+   "end": 26,
+   "kjv": "The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee: The LORD lift up his countenance upon thee, and give thee peace.",
+   "web": "‘Yahweh bless you, and keep you. Yahweh make his face to shine on you, and be gracious to you. Yahweh lift up his face toward you, and give you peace.’",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "John 16:33",
+   "book": 42,
+   "chapter": 16,
+   "start": 33,
+   "end": 33,
+   "kjv": "These things I have spoken unto you, that in me ye might have peace. In the world ye shall have tribulation: but be of good cheer; I have overcome the world.",
+   "web": "I have told you these things, that in me you may have peace. In the world you have trouble; but cheer up! I have overcome the world.”",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Colossians 3:15",
+   "book": 50,
+   "chapter": 3,
+   "start": 15,
+   "end": 15,
+   "kjv": "And let the peace of God rule in your hearts, to the which also ye are called in one body; and be ye thankful.",
+   "web": "And let the peace of God rule in your hearts, to which also you were called in one body, and be thankful.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Romans 5:1",
+   "book": 44,
+   "chapter": 5,
+   "start": 1,
+   "end": 1,
+   "kjv": "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ:",
+   "web": "Being therefore justified by faith, we have peace with God through our Lord Jesus Christ;",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Psalm 29:11",
+   "book": 18,
+   "chapter": 29,
+   "start": 11,
+   "end": 11,
+   "kjv": "The LORD will give strength unto his people; the LORD will bless his people with peace.",
+   "web": "Yahweh will give strength to his people. Yahweh will bless his people with peace.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "2 Thessalonians 3:16",
+   "book": 52,
+   "chapter": 3,
+   "start": 16,
+   "end": 16,
+   "kjv": "Now the Lord of peace himself give you peace always by all means. The Lord be with you all.",
+   "web": "Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Isaiah 32:17",
+   "book": 22,
+   "chapter": 32,
+   "start": 17,
+   "end": 17,
+   "kjv": "And the work of righteousness shall be peace; and the effect of righteousness quietness and assurance for ever.",
+   "web": "The work of righteousness will be peace, and the effect of righteousness, quietness and confidence forever.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Psalm 119:165",
+   "book": 18,
+   "chapter": 119,
+   "start": 165,
+   "end": 165,
+   "kjv": "Great peace have they which love thy law: and nothing shall offend them.",
+   "web": "Those who love your law have great peace. Nothing causes them to stumble.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Matthew 11:28",
+   "book": 39,
+   "chapter": 11,
+   "start": 28,
+   "end": 28,
+   "kjv": "Come unto me, all ye that labour and are heavy laden, and I will give you rest.",
+   "web": "“Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Psalm 46:10",
+   "book": 18,
+   "chapter": 46,
+   "start": 10,
+   "end": 10,
+   "kjv": "Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.",
+   "web": "“Be still, and know that I am God. I will be exalted among the nations. I will be exalted in the earth.”",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Romans 8:6",
+   "book": 44,
+   "chapter": 8,
+   "start": 6,
+   "end": 6,
+   "kjv": "For to be carnally minded is death; but to be spiritually minded is life and peace.",
+   "web": "For the mind of the flesh is death, but the mind of the Spirit is life and peace;",
+   "topics": [
+    "peace"
+   ]
+  },
+  {
+   "ref": "Philippians 4:13",
+   "book": 49,
+   "chapter": 4,
+   "start": 13,
+   "end": 13,
+   "kjv": "I can do all things through Christ which strengtheneth me.",
+   "web": "I can do all things through Christ, who strengthens me.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Isaiah 41:10",
+   "book": 22,
+   "chapter": 41,
+   "start": 10,
+   "end": 10,
+   "kjv": "Fear thou not; for I am with thee: be not dismayed; for I am thy God: I will strengthen thee; yea, I will help thee; yea, I will uphold thee with the right hand of my righteousness.",
+   "web": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Psalm 46:1",
+   "book": 18,
+   "chapter": 46,
+   "start": 1,
+   "end": 1,
+   "kjv": "God is our refuge and strength, a very present help in trouble.",
+   "web": "God is our refuge and strength, a very present help in trouble.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "2 Corinthians 12:9",
+   "book": 46,
+   "chapter": 12,
+   "start": 9,
+   "end": 9,
+   "kjv": "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness. Most gladly therefore will I rather glory in my infirmities, that the power of Christ may rest upon me.",
+   "web": "He has said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Most gladly therefore I will rather glory in my weaknesses, that the power of Christ may rest on me.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Nehemiah 8:10",
+   "book": 15,
+   "chapter": 8,
+   "start": 10,
+   "end": 10,
+   "kjv": "Then he said unto them, Go your way, eat the fat, and drink the sweet, and send portions unto them for whom nothing is prepared: for this day is holy unto our Lord: neither be ye sorry; for the joy of the LORD is your strength.",
+   "web": "Then he said to them, “Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord. Don’t be grieved, for the joy of Yahweh is your strength.”",
+   "topics": [
+    "strength",
+    "joy"
+   ]
+  },
+  {
+   "ref": "Psalm 28:7",
+   "book": 18,
+   "chapter": 28,
+   "start": 7,
+   "end": 7,
+   "kjv": "The LORD is my strength and my shield; my heart trusted in him, and I am helped: therefore my heart greatly rejoiceth; and with my song will I praise him.",
+   "web": "Yahweh is my strength and my shield. My heart has trusted in him, and I am helped. Therefore my heart greatly rejoices. With my song I will thank him.",
+   "topics": [
+    "strength",
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Ephesians 6:10",
+   "book": 48,
+   "chapter": 6,
+   "start": 10,
+   "end": 10,
+   "kjv": "Finally, my brethren, be strong in the Lord, and in the power of his might.",
+   "web": "Finally, be strong in the Lord, and in the strength of his might.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Isaiah 40:29",
+   "book": 22,
+   "chapter": 40,
+   "start": 29,
+   "end": 29,
+   "kjv": "He giveth power to the faint; and to them that have no might he increaseth strength.",
+   "web": "He gives power to the weak. He increases the strength of him who has no might.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Psalm 18:2",
+   "book": 18,
+   "chapter": 18,
+   "start": 2,
+   "end": 2,
+   "kjv": "The LORD is my rock, and my fortress, and my deliverer; my God, my strength, in whom I will trust; my buckler, and the horn of my salvation, and my high tower.",
+   "web": "Yahweh is my rock, my fortress, and my deliverer; my God, my rock, in whom I take refuge; my shield, and the horn of my salvation, my high tower.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Exodus 15:2",
+   "book": 1,
+   "chapter": 15,
+   "start": 2,
+   "end": 2,
+   "kjv": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father’s God, and I will exalt him.",
+   "web": "Yah is my strength and song. He has become my salvation. This is my God, and I will praise him; my father’s God, and I will exalt him.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Habakkuk 3:19",
+   "book": 34,
+   "chapter": 3,
+   "start": 19,
+   "end": 19,
+   "kjv": "The LORD God is my strength, and he will make my feet like hinds’ feet , and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.",
+   "web": "Yahweh, the Lord, is my strength. He makes my feet like deer’s feet, and enables me to go in high places. For the music director, on my stringed instruments.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Psalm 73:26",
+   "book": 18,
+   "chapter": 73,
+   "start": 26,
+   "end": 26,
+   "kjv": "My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever.",
+   "web": "My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "2 Timothy 1:7",
+   "book": 54,
+   "chapter": 1,
+   "start": 7,
+   "end": 7,
+   "kjv": "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.",
+   "web": "For God didn’t give us a spirit of fear, but of power, love, and self-control.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "1 Chronicles 16:11",
+   "book": 12,
+   "chapter": 16,
+   "start": 11,
+   "end": 11,
+   "kjv": "Seek the LORD and his strength, seek his face continually.",
+   "web": "Seek Yahweh and his strength. Seek his face forever more.",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Psalm 27:1",
+   "book": 18,
+   "chapter": 27,
+   "start": 1,
+   "end": 1,
+   "kjv": "The LORD is my light and my salvation; whom shall I fear? the LORD is the strength of my life; of whom shall I be afraid?",
+   "web": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid?",
+   "topics": [
+    "strength"
+   ]
+  },
+  {
+   "ref": "Philippians 4:6",
+   "book": 49,
+   "chapter": 4,
+   "start": 6,
+   "end": 6,
+   "kjv": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.",
+   "web": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God.",
+   "topics": [
+    "anxiety",
+    "prayer"
+   ]
+  },
+  {
+   "ref": "1 Peter 5:7",
+   "book": 59,
+   "chapter": 5,
+   "start": 7,
+   "end": 7,
+   "kjv": "Casting all your care upon him; for he careth for you.",
+   "web": "casting all your worries on him, because he cares for you.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Matthew 6:34",
+   "book": 39,
+   "chapter": 6,
+   "start": 34,
+   "end": 34,
+   "kjv": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof.",
+   "web": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Psalm 94:19",
+   "book": 18,
+   "chapter": 94,
+   "start": 19,
+   "end": 19,
+   "kjv": "In the multitude of my thoughts within me thy comforts delight my soul.",
+   "web": "In the multitude of my thoughts within me, your comforts delight my soul.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Psalm 55:22",
+   "book": 18,
+   "chapter": 55,
+   "start": 22,
+   "end": 22,
+   "kjv": "Cast thy burden upon the LORD , and he shall sustain thee: he shall never suffer the righteous to be moved.",
+   "web": "Cast your burden on Yahweh and he will sustain you. He will never allow the righteous to be moved.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Matthew 6:26",
+   "book": 39,
+   "chapter": 6,
+   "start": 26,
+   "end": 26,
+   "kjv": "Behold the fowls of the air: for they sow not, neither do they reap, nor gather into barns; yet your heavenly Father feedeth them. Are ye not much better than they?",
+   "web": "See the birds of the sky, that they don’t sow, neither do they reap, nor gather into barns. Your heavenly Father feeds them. Aren’t you of much more value than they?",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Psalm 56:3",
+   "book": 18,
+   "chapter": 56,
+   "start": 3,
+   "end": 3,
+   "kjv": "What time I am afraid, I will trust in thee.",
+   "web": "When I am afraid, I will put my trust in you.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Isaiah 43:1",
+   "book": 22,
+   "chapter": 43,
+   "start": 1,
+   "end": 1,
+   "kjv": "But now thus saith the LORD that created thee, O Jacob, and he that formed thee, O Israel, Fear not: for I have redeemed thee, I have called thee by thy name; thou art mine.",
+   "web": "But now Yahweh who created you, Jacob, and he who formed you, Israel, says: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Luke 12:25",
+   "book": 41,
+   "chapter": 12,
+   "start": 25,
+   "end": 25,
+   "kjv": "And which of you with taking thought can add to his stature one cubit?",
+   "web": "Which of you by being anxious can add a cubit to his height?",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Psalm 34:4",
+   "book": 18,
+   "chapter": 34,
+   "start": 4,
+   "end": 4,
+   "kjv": "I sought the LORD , and he heard me, and delivered me from all my fears.",
+   "web": "I sought Yahweh, and he answered me, and delivered me from all my fears.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Proverbs 12:25",
+   "book": 19,
+   "chapter": 12,
+   "start": 25,
+   "end": 25,
+   "kjv": "Heaviness in the heart of man maketh it stoop: but a good word maketh it glad.",
+   "web": "Anxiety in a man’s heart weighs it down, but a kind word makes it glad.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "John 14:1",
+   "book": 42,
+   "chapter": 14,
+   "start": 1,
+   "end": 1,
+   "kjv": "Let not your heart be troubled: ye believe in God, believe also in me.",
+   "web": "“Don’t let your heart be troubled. Believe in God. Believe also in me.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Psalm 23:4",
+   "book": 18,
+   "chapter": 23,
+   "start": 4,
+   "end": 4,
+   "kjv": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+   "web": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 31:8",
+   "book": 4,
+   "chapter": 31,
+   "start": 8,
+   "end": 8,
+   "kjv": "And the LORD , he it is that doth go before thee; he will be with thee, he will not fail thee, neither forsake thee: fear not, neither be dismayed.",
+   "web": "Yahweh himself is who goes before you. He will be with you. He will not fail you nor forsake you. Don’t be afraid. Don’t be discouraged.”",
+   "topics": [
+    "anxiety",
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Psalm 121:1-2",
+   "book": 18,
+   "chapter": 121,
+   "start": 1,
+   "end": 2,
+   "kjv": "I will lift up mine eyes unto the hills, from whence cometh my help. My help cometh from the LORD , which made heaven and earth.",
+   "web": "I will lift up my eyes to the hills. Where does my help come from? My help comes from Yahweh, who made heaven and earth.",
+   "topics": [
+    "anxiety"
+   ]
+  },
+  {
+   "ref": "John 3:16",
+   "book": 42,
+   "chapter": 3,
+   "start": 16,
+   "end": 16,
+   "kjv": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+   "web": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "1 Corinthians 13:4-5",
+   "book": 45,
+   "chapter": 13,
+   "start": 4,
+   "end": 5,
+   "kjv": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up, Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil;",
+   "web": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud, doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil;",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "1 John 4:19",
+   "book": 61,
+   "chapter": 4,
+   "start": 19,
+   "end": 19,
+   "kjv": "We love him, because he first loved us.",
+   "web": "We love him, because he first loved us.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "Romans 8:38-39",
+   "book": 44,
+   "chapter": 8,
+   "start": 38,
+   "end": 39,
+   "kjv": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+   "web": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "1 John 4:8",
+   "book": 61,
+   "chapter": 4,
+   "start": 8,
+   "end": 8,
+   "kjv": "He that loveth not knoweth not God; for God is love.",
+   "web": "He who doesn’t love doesn’t know God, for God is love.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "John 15:13",
+   "book": 42,
+   "chapter": 15,
+   "start": 13,
+   "end": 13,
+   "kjv": "Greater love hath no man than this, that a man lay down his life for his friends.",
+   "web": "Greater love has no one than this, that someone lay down his life for his friends.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "Romans 5:8",
+   "book": 44,
+   "chapter": 5,
+   "start": 8,
+   "end": 8,
+   "kjv": "But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
+   "web": "But God commends his own love toward us, in that while we were yet sinners, Christ died for us.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "1 Corinthians 16:14",
+   "book": 45,
+   "chapter": 16,
+   "start": 14,
+   "end": 14,
+   "kjv": "Let all your things be done with charity.",
+   "web": "Let all that you do be done in love.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "1 John 4:16",
+   "book": 61,
+   "chapter": 4,
+   "start": 16,
+   "end": 16,
+   "kjv": "And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him.",
+   "web": "We know and have believed the love which God has for us. God is love, and he who remains in love remains in God, and God remains in him.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "Ephesians 3:17-18",
+   "book": 48,
+   "chapter": 3,
+   "start": 17,
+   "end": 18,
+   "kjv": "That Christ may dwell in your hearts by faith; that ye, being rooted and grounded in love, May be able to comprehend with all saints what is the breadth, and length, and depth, and height;",
+   "web": "that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love, may be strengthened to comprehend with all the saints what is the width and length and height and depth,",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "Zephaniah 3:17",
+   "book": 35,
+   "chapter": 3,
+   "start": 17,
+   "end": 17,
+   "kjv": "The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing.",
+   "web": "Yahweh, your God, is among you, a mighty one who will save. He will rejoice over you with joy. He will calm you in his love. He will rejoice over you with singing.",
+   "topics": [
+    "love",
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Jeremiah 31:3",
+   "book": 23,
+   "chapter": 31,
+   "start": 3,
+   "end": 3,
+   "kjv": "The LORD hath appeared of old unto me, saying , Yea, I have loved thee with an everlasting love: therefore with lovingkindness have I drawn thee.",
+   "web": "Yahweh appeared of old to me, saying, “Yes, I have loved you with an everlasting love. Therefore I have drawn you with loving kindness.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "John 13:34",
+   "book": 42,
+   "chapter": 13,
+   "start": 34,
+   "end": 34,
+   "kjv": "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.",
+   "web": "A new commandment I give to you, that you love one another. Just as I have loved you, you also love one another.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "1 Peter 4:8",
+   "book": 59,
+   "chapter": 4,
+   "start": 8,
+   "end": 8,
+   "kjv": "And above all things have fervent charity among yourselves: for charity shall cover the multitude of sins.",
+   "web": "And above all things be earnest in your love among yourselves, for love covers a multitude of sins.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "Colossians 3:14",
+   "book": 50,
+   "chapter": 3,
+   "start": 14,
+   "end": 14,
+   "kjv": "And above all these things put on charity, which is the bond of perfectness.",
+   "web": "Above all these things, walk in love, which is the bond of perfection.",
+   "topics": [
+    "love"
+   ]
+  },
+  {
+   "ref": "Hebrews 11:1",
+   "book": 57,
+   "chapter": 11,
+   "start": 1,
+   "end": 1,
+   "kjv": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+   "web": "Now faith is assurance of things hoped for, proof of things not seen.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Hebrews 11:6",
+   "book": 57,
+   "chapter": 11,
+   "start": 6,
+   "end": 6,
+   "kjv": "But without faith it is impossible to please him : for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.",
+   "web": "Without faith it is impossible to be well pleasing to him, for he who comes to God must believe that he exists, and that he is a rewarder of those who seek him.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Proverbs 3:5-6",
+   "book": 19,
+   "chapter": 3,
+   "start": 5,
+   "end": 6,
+   "kjv": "Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.",
+   "web": "Trust in Yahweh with all your heart, and don’t lean on your own understanding. In all your ways acknowledge him, and he will make your paths straight.",
+   "topics": [
+    "faith",
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Mark 11:24",
+   "book": 40,
+   "chapter": 11,
+   "start": 24,
+   "end": 24,
+   "kjv": "Therefore I say unto you, What things soever ye desire, when ye pray, believe that ye receive them , and ye shall have them .",
+   "web": "Therefore I tell you, all things whatever you pray and ask for, believe that you have received them, and you shall have them.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "2 Corinthians 5:7",
+   "book": 46,
+   "chapter": 5,
+   "start": 7,
+   "end": 7,
+   "kjv": "(For we walk by faith, not by sight:)",
+   "web": "for we walk by faith, not by sight.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Romans 10:17",
+   "book": 44,
+   "chapter": 10,
+   "start": 17,
+   "end": 17,
+   "kjv": "So then faith cometh by hearing, and hearing by the word of God.",
+   "web": "So faith comes by hearing, and hearing by the word of God.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Matthew 17:20",
+   "book": 39,
+   "chapter": 17,
+   "start": 20,
+   "end": 20,
+   "kjv": "And Jesus said unto them, Because of your unbelief: for verily I say unto you, If ye have faith as a grain of mustard seed, ye shall say unto this mountain, Remove hence to yonder place; and it shall remove; and nothing shall be impossible unto you.",
+   "web": "He said to them, “Because of your unbelief. For most certainly I tell you, if you have faith as a grain of mustard seed, you will tell this mountain, ‘Move from here to there,’ and it will move; and nothing will be impossible for you.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Galatians 2:20",
+   "book": 47,
+   "chapter": 2,
+   "start": 20,
+   "end": 20,
+   "kjv": "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.",
+   "web": "I have been crucified with Christ, and it is no longer I who live, but Christ lives in me. That life which I now live in the flesh, I live by faith in the Son of God, who loved me, and gave himself up for me.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Ephesians 2:8",
+   "book": 48,
+   "chapter": 2,
+   "start": 8,
+   "end": 8,
+   "kjv": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God:",
+   "web": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God,",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "James 1:6",
+   "book": 58,
+   "chapter": 1,
+   "start": 6,
+   "end": 6,
+   "kjv": "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed.",
+   "web": "But let him ask in faith, without any doubting, for he who doubts is like a wave of the sea, driven by the wind and tossed.",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Mark 9:23",
+   "book": 40,
+   "chapter": 9,
+   "start": 23,
+   "end": 23,
+   "kjv": "Jesus said unto him, If thou canst believe, all things are possible to him that believeth.",
+   "web": "Jesus said to him, “If you can believe, all things are possible to him who believes.”",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "1 Corinthians 16:13",
+   "book": 45,
+   "chapter": 16,
+   "start": 13,
+   "end": 13,
+   "kjv": "Watch ye, stand fast in the faith, quit you like men, be strong.",
+   "web": "Watch! Stand firm in the faith! Be courageous! Be strong!",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Romans 1:17",
+   "book": 44,
+   "chapter": 1,
+   "start": 17,
+   "end": 17,
+   "kjv": "For therein is the righteousness of God revealed from faith to faith: as it is written, The just shall live by faith.",
+   "web": "For in it is revealed God’s righteousness from faith to faith. As it is written, “But the righteous shall live by faith.”",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "Luke 1:37",
+   "book": 41,
+   "chapter": 1,
+   "start": 37,
+   "end": 37,
+   "kjv": "For with God nothing shall be impossible.",
+   "web": "For nothing spoken by God is impossible.”",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "John 20:29",
+   "book": 42,
+   "chapter": 20,
+   "start": 29,
+   "end": 29,
+   "kjv": "Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed.",
+   "web": "Jesus said to him, “Because you have seen me, you have believed. Blessed are those who have not seen, and have believed.”",
+   "topics": [
+    "faith"
+   ]
+  },
+  {
+   "ref": "1 Thessalonians 5:18",
+   "book": 51,
+   "chapter": 5,
+   "start": 18,
+   "end": 18,
+   "kjv": "In every thing give thanks: for this is the will of God in Christ Jesus concerning you.",
+   "web": "In everything give thanks, for this is the will of God in Christ Jesus toward you.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Psalm 107:1",
+   "book": 18,
+   "chapter": 107,
+   "start": 1,
+   "end": 1,
+   "kjv": "O give thanks unto the LORD , for he is good: for his mercy endureth for ever.",
+   "web": "Give thanks to Yahweh, for he is good, for his loving kindness endures forever.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Psalm 100:4",
+   "book": 18,
+   "chapter": 100,
+   "start": 4,
+   "end": 4,
+   "kjv": "Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.",
+   "web": "Enter into his gates with thanksgiving, and into his courts with praise. Give thanks to him, and bless his name.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Colossians 3:17",
+   "book": 50,
+   "chapter": 3,
+   "start": 17,
+   "end": 17,
+   "kjv": "And whatsoever ye do in word or deed, do all in the name of the Lord Jesus, giving thanks to God and the Father by him.",
+   "web": "Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father, through him.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Psalm 118:24",
+   "book": 18,
+   "chapter": 118,
+   "start": 24,
+   "end": 24,
+   "kjv": "This is the day which the LORD hath made; we will rejoice and be glad in it.",
+   "web": "This is the day that Yahweh has made. We will rejoice and be glad in it!",
+   "topics": [
+    "gratitude",
+    "joy"
+   ]
+  },
+  {
+   "ref": "James 1:17",
+   "book": 58,
+   "chapter": 1,
+   "start": 17,
+   "end": 17,
+   "kjv": "Every good gift and every perfect gift is from above, and cometh down from the Father of lights, with whom is no variableness, neither shadow of turning.",
+   "web": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation, nor turning shadow.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Psalm 103:2",
+   "book": 18,
+   "chapter": 103,
+   "start": 2,
+   "end": 2,
+   "kjv": "Bless the LORD , O my soul, and forget not all his benefits:",
+   "web": "Praise Yahweh, my soul, and don’t forget all his benefits,",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Philippians 4:4",
+   "book": 49,
+   "chapter": 4,
+   "start": 4,
+   "end": 4,
+   "kjv": "Rejoice in the Lord alway: and again I say, Rejoice.",
+   "web": "Rejoice in the Lord always! Again I will say, “Rejoice!”",
+   "topics": [
+    "gratitude",
+    "joy"
+   ]
+  },
+  {
+   "ref": "Psalm 9:1",
+   "book": 18,
+   "chapter": 9,
+   "start": 1,
+   "end": 1,
+   "kjv": "I will praise thee , O LORD , with my whole heart; I will shew forth all thy marvellous works.",
+   "web": "I will give thanks to Yahweh with my whole heart. I will tell of all your marvelous works.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Psalm 136:1",
+   "book": 18,
+   "chapter": 136,
+   "start": 1,
+   "end": 1,
+   "kjv": "O give thanks unto the LORD ; for he is good: for his mercy endureth for ever.",
+   "web": "Give thanks to Yahweh, for he is good; for his loving kindness endures forever.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "2 Corinthians 9:15",
+   "book": 46,
+   "chapter": 9,
+   "start": 15,
+   "end": 15,
+   "kjv": "Thanks be unto God for his unspeakable gift.",
+   "web": "Now thanks be to God for his unspeakable gift!",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Psalm 95:2",
+   "book": 18,
+   "chapter": 95,
+   "start": 2,
+   "end": 2,
+   "kjv": "Let us come before his presence with thanksgiving, and make a joyful noise unto him with psalms.",
+   "web": "Let’s come before his presence with thanksgiving. Let’s extol him with songs!",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Colossians 2:7",
+   "book": 50,
+   "chapter": 2,
+   "start": 7,
+   "end": 7,
+   "kjv": "Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving.",
+   "web": "rooted and built up in him, and established in the faith, even as you were taught, abounding in it in thanksgiving.",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "Ephesians 5:20",
+   "book": 48,
+   "chapter": 5,
+   "start": 20,
+   "end": 20,
+   "kjv": "Giving thanks always for all things unto God and the Father in the name of our Lord Jesus Christ;",
+   "web": "giving thanks always concerning all things in the name of our Lord Jesus Christ, to God, even the Father;",
+   "topics": [
+    "gratitude"
+   ]
+  },
+  {
+   "ref": "1 John 1:9",
+   "book": 61,
+   "chapter": 1,
+   "start": 9,
+   "end": 9,
+   "kjv": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.",
+   "web": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Ephesians 4:32",
+   "book": 48,
+   "chapter": 4,
+   "start": 32,
+   "end": 32,
+   "kjv": "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you.",
+   "web": "And be kind to one another, tender hearted, forgiving each other, just as God also in Christ forgave you.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Psalm 103:12",
+   "book": 18,
+   "chapter": 103,
+   "start": 12,
+   "end": 12,
+   "kjv": "As far as the east is from the west, so far hath he removed our transgressions from us.",
+   "web": "As far as the east is from the west, so far has he removed our transgressions from us.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Colossians 3:13",
+   "book": 50,
+   "chapter": 3,
+   "start": 13,
+   "end": 13,
+   "kjv": "Forbearing one another, and forgiving one another, if any man have a quarrel against any: even as Christ forgave you, so also do ye.",
+   "web": "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Isaiah 1:18",
+   "book": 22,
+   "chapter": 1,
+   "start": 18,
+   "end": 18,
+   "kjv": "Come now, and let us reason together, saith the LORD : though your sins be as scarlet, they shall be as white as snow; though they be red like crimson, they shall be as wool.",
+   "web": "“Come now, and let’s reason together,” says Yahweh: “Though your sins are as scarlet, they shall be as white as snow. Though they are red like crimson, they shall be as wool.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Matthew 6:14",
+   "book": 39,
+   "chapter": 6,
+   "start": 14,
+   "end": 14,
+   "kjv": "For if ye forgive men their trespasses, your heavenly Father will also forgive you:",
+   "web": "“For if you forgive men their trespasses, your heavenly Father will also forgive you.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Micah 7:18",
+   "book": 32,
+   "chapter": 7,
+   "start": 18,
+   "end": 18,
+   "kjv": "Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in mercy.",
+   "web": "Who is a God like you, who pardons iniquity, and passes over the disobedience of the remnant of his heritage? He doesn’t retain his anger forever, because he delights in loving kindness.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Acts 3:19",
+   "book": 43,
+   "chapter": 3,
+   "start": 19,
+   "end": 19,
+   "kjv": "Repent ye therefore, and be converted, that your sins may be blotted out, when the times of refreshing shall come from the presence of the Lord;",
+   "web": "“Repent therefore, and turn again, that your sins may be blotted out, so that there may come times of refreshing from the presence of the Lord,",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Psalm 32:1",
+   "book": 18,
+   "chapter": 32,
+   "start": 1,
+   "end": 1,
+   "kjv": "Blessed is he whose transgression is forgiven, whose sin is covered.",
+   "web": "Blessed is he whose disobedience is forgiven, whose sin is covered.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Isaiah 43:25",
+   "book": 22,
+   "chapter": 43,
+   "start": 25,
+   "end": 25,
+   "kjv": "I, even I, am he that blotteth out thy transgressions for mine own sake, and will not remember thy sins.",
+   "web": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Luke 6:37",
+   "book": 41,
+   "chapter": 6,
+   "start": 37,
+   "end": 37,
+   "kjv": "Judge not, and ye shall not be judged: condemn not, and ye shall not be condemned: forgive, and ye shall be forgiven:",
+   "web": "Don’t judge, and you won’t be judged. Don’t condemn, and you won’t be condemned. Set free, and you will be set free.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Ephesians 1:7",
+   "book": 48,
+   "chapter": 1,
+   "start": 7,
+   "end": 7,
+   "kjv": "In whom we have redemption through his blood, the forgiveness of sins, according to the riches of his grace;",
+   "web": "in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Psalm 86:5",
+   "book": 18,
+   "chapter": 86,
+   "start": 5,
+   "end": 5,
+   "kjv": "For thou, Lord, art good, and ready to forgive; and plenteous in mercy unto all them that call upon thee.",
+   "web": "For you, Lord, are good, and ready to forgive, abundant in loving kindness to all those who call on you.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Mark 11:25",
+   "book": 40,
+   "chapter": 11,
+   "start": 25,
+   "end": 25,
+   "kjv": "And when ye stand praying, forgive, if ye have ought against any: that your Father also which is in heaven may forgive you your trespasses.",
+   "web": "Whenever you stand praying, forgive, if you have anything against anyone; so that your Father, who is in heaven, may also forgive you your transgressions.",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "Hebrews 8:12",
+   "book": 57,
+   "chapter": 8,
+   "start": 12,
+   "end": 12,
+   "kjv": "For I will be merciful to their unrighteousness, and their sins and their iniquities will I remember no more.",
+   "web": "For I will be merciful to their unrighteousness. I will remember their sins and lawless deeds no more.”",
+   "topics": [
+    "forgiveness"
+   ]
+  },
+  {
+   "ref": "James 1:5",
+   "book": 58,
+   "chapter": 1,
+   "start": 5,
+   "end": 5,
+   "kjv": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.",
+   "web": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach, and it will be given to him.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Proverbs 9:10",
+   "book": 19,
+   "chapter": 9,
+   "start": 10,
+   "end": 10,
+   "kjv": "The fear of the LORD is the beginning of wisdom: and the knowledge of the holy is understanding.",
+   "web": "The fear of Yahweh is the beginning of wisdom. The knowledge of the Holy One is understanding.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Proverbs 2:6",
+   "book": 19,
+   "chapter": 2,
+   "start": 6,
+   "end": 6,
+   "kjv": "For the LORD giveth wisdom: out of his mouth cometh knowledge and understanding.",
+   "web": "For Yahweh gives wisdom. Out of his mouth comes knowledge and understanding.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Psalm 119:105",
+   "book": 18,
+   "chapter": 119,
+   "start": 105,
+   "end": 105,
+   "kjv": "Thy word is a lamp unto my feet, and a light unto my path.",
+   "web": "Your word is a lamp to my feet, and a light for my path.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Proverbs 4:7",
+   "book": 19,
+   "chapter": 4,
+   "start": 7,
+   "end": 7,
+   "kjv": "Wisdom is the principal thing; therefore get wisdom: and with all thy getting get understanding.",
+   "web": "Wisdom is supreme. Get wisdom. Yes, though it costs all your possessions, get understanding.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Colossians 3:16",
+   "book": 50,
+   "chapter": 3,
+   "start": 16,
+   "end": 16,
+   "kjv": "Let the word of Christ dwell in you richly in all wisdom; teaching and admonishing one another in psalms and hymns and spiritual songs, singing with grace in your hearts to the Lord.",
+   "web": "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Proverbs 16:16",
+   "book": 19,
+   "chapter": 16,
+   "start": 16,
+   "end": 16,
+   "kjv": "How much better is it to get wisdom than gold! and to get understanding rather to be chosen than silver!",
+   "web": "How much better it is to get wisdom than gold! Yes, to get understanding is to be chosen rather than silver.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Psalm 90:12",
+   "book": 18,
+   "chapter": 90,
+   "start": 12,
+   "end": 12,
+   "kjv": "So teach us to number our days, that we may apply our hearts unto wisdom.",
+   "web": "So teach us to count our days, that we may gain a heart of wisdom.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "James 3:17",
+   "book": 58,
+   "chapter": 3,
+   "start": 17,
+   "end": 17,
+   "kjv": "But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.",
+   "web": "But the wisdom that is from above is first pure, then peaceful, gentle, reasonable, full of mercy and good fruits, without partiality, and without hypocrisy.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Proverbs 19:20",
+   "book": 19,
+   "chapter": 19,
+   "start": 20,
+   "end": 20,
+   "kjv": "Hear counsel, and receive instruction, that thou mayest be wise in thy latter end.",
+   "web": "Listen to counsel and receive instruction, that you may be wise in your latter end.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Psalm 32:8",
+   "book": 18,
+   "chapter": 32,
+   "start": 8,
+   "end": 8,
+   "kjv": "I will instruct thee and teach thee in the way which thou shalt go: I will guide thee with mine eye.",
+   "web": "I will instruct you and teach you in the way which you shall go. I will counsel you with my eye on you.",
+   "topics": [
+    "wisdom",
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Proverbs 1:7",
+   "book": 19,
+   "chapter": 1,
+   "start": 7,
+   "end": 7,
+   "kjv": "The fear of the LORD is the beginning of knowledge: but fools despise wisdom and instruction.",
+   "web": "The fear of Yahweh is the beginning of knowledge; but the foolish despise wisdom and instruction.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Ecclesiastes 3:1",
+   "book": 20,
+   "chapter": 3,
+   "start": 1,
+   "end": 1,
+   "kjv": "To every thing there is a season, and a time to every purpose under the heaven:",
+   "web": "For everything there is a season, and a time for every purpose under heaven:",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Proverbs 16:9",
+   "book": 19,
+   "chapter": 16,
+   "start": 9,
+   "end": 9,
+   "kjv": "A man’s heart deviseth his way: but the LORD directeth his steps.",
+   "web": "A man’s heart plans his course, but Yahweh directs his steps.",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Psalm 111:10",
+   "book": 18,
+   "chapter": 111,
+   "start": 10,
+   "end": 10,
+   "kjv": "The fear of the LORD is the beginning of wisdom: a good understanding have all they that do his commandments: his praise endureth for ever.",
+   "web": "The fear of Yahweh is the beginning of wisdom. All those who do his work have a good understanding. His praise endures forever!",
+   "topics": [
+    "wisdom"
+   ]
+  },
+  {
+   "ref": "Psalm 34:18",
+   "book": 18,
+   "chapter": 34,
+   "start": 18,
+   "end": 18,
+   "kjv": "The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.",
+   "web": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Matthew 5:4",
+   "book": 39,
+   "chapter": 5,
+   "start": 4,
+   "end": 4,
+   "kjv": "Blessed are they that mourn: for they shall be comforted.",
+   "web": "Blessed are those who mourn, for they shall be comforted.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "2 Corinthians 1:3-4",
+   "book": 46,
+   "chapter": 1,
+   "start": 3,
+   "end": 4,
+   "kjv": "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God.",
+   "web": "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort; who comforts us in all our affliction, that we may be able to comfort those who are in any affliction, through the comfort with which we ourselves are comforted by God.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Psalm 147:3",
+   "book": 18,
+   "chapter": 147,
+   "start": 3,
+   "end": 3,
+   "kjv": "He healeth the broken in heart, and bindeth up their wounds.",
+   "web": "He heals the broken in heart, and binds up their wounds.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Revelation 21:4",
+   "book": 65,
+   "chapter": 21,
+   "start": 4,
+   "end": 4,
+   "kjv": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
+   "web": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Isaiah 66:13",
+   "book": 22,
+   "chapter": 66,
+   "start": 13,
+   "end": 13,
+   "kjv": "As one whom his mother comforteth, so will I comfort you; and ye shall be comforted in Jerusalem.",
+   "web": "As one whom his mother comforts, so I will comfort you. You will be comforted in Jerusalem.”",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Psalm 23:1-3",
+   "book": 18,
+   "chapter": 23,
+   "start": 1,
+   "end": 3,
+   "kjv": "The LORD is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters. He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.",
+   "web": "Yahweh is my shepherd: I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters. He restores my soul. He guides me in the paths of righteousness for his name’s sake.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "John 14:18",
+   "book": 42,
+   "chapter": 14,
+   "start": 18,
+   "end": 18,
+   "kjv": "I will not leave you comfortless: I will come to you.",
+   "web": "I will not leave you orphans. I will come to you.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Psalm 30:5",
+   "book": 18,
+   "chapter": 30,
+   "start": 5,
+   "end": 5,
+   "kjv": "For his anger endureth but a moment; in his favour is life: weeping may endure for a night, but joy cometh in the morning.",
+   "web": "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Isaiah 61:1",
+   "book": 22,
+   "chapter": 61,
+   "start": 1,
+   "end": 1,
+   "kjv": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound;",
+   "web": "The Lord Yahweh’s Spirit is on me, because Yahweh has anointed me to preach good news to the humble. He has sent me to bind up the broken hearted, to proclaim liberty to the captives and release to those who are bound,",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Psalm 119:50",
+   "book": 18,
+   "chapter": 119,
+   "start": 50,
+   "end": 50,
+   "kjv": "This is my comfort in my affliction: for thy word hath quickened me.",
+   "web": "This is my comfort in my affliction, for your word has revived me.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Romans 8:18",
+   "book": 44,
+   "chapter": 8,
+   "start": 18,
+   "end": 18,
+   "kjv": "For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us.",
+   "web": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which will be revealed toward us.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Psalm 9:9",
+   "book": 18,
+   "chapter": 9,
+   "start": 9,
+   "end": 9,
+   "kjv": "The LORD also will be a refuge for the oppressed, a refuge in times of trouble.",
+   "web": "Yahweh will also be a high tower for the oppressed; a high tower in times of trouble.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Psalm 62:8",
+   "book": 18,
+   "chapter": 62,
+   "start": 8,
+   "end": 8,
+   "kjv": "Trust in him at all times; ye people, pour out your heart before him: God is a refuge for us. Selah.",
+   "web": "Trust in him at all times, you people. Pour out your heart before him. God is a refuge for us.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Isaiah 49:13",
+   "book": 22,
+   "chapter": 49,
+   "start": 13,
+   "end": 13,
+   "kjv": "Sing, O heavens; and be joyful, O earth; and break forth into singing, O mountains: for the LORD hath comforted his people, and will have mercy upon his afflicted.",
+   "web": "Sing, heavens, and be joyful, earth! Break out into singing, mountains, for Yahweh has comforted his people, and will have compassion on his afflicted.",
+   "topics": [
+    "comfort"
+   ]
+  },
+  {
+   "ref": "Joshua 1:9",
+   "book": 5,
+   "chapter": 1,
+   "start": 9,
+   "end": 9,
+   "kjv": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+   "web": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God is with you wherever you go.”",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Deuteronomy 31:6",
+   "book": 4,
+   "chapter": 31,
+   "start": 6,
+   "end": 6,
+   "kjv": "Be strong and of a good courage, fear not, nor be afraid of them: for the LORD thy God, he it is that doth go with thee; he will not fail thee, nor forsake thee.",
+   "web": "Be strong and courageous. Don’t be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.”",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Psalm 31:24",
+   "book": 18,
+   "chapter": 31,
+   "start": 24,
+   "end": 24,
+   "kjv": "Be of good courage, and he shall strengthen your heart, all ye that hope in the LORD .",
+   "web": "Be strong, and let your heart take courage, all you who hope in Yahweh.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Isaiah 41:13",
+   "book": 22,
+   "chapter": 41,
+   "start": 13,
+   "end": 13,
+   "kjv": "For I the LORD thy God will hold thy right hand, saying unto thee, Fear not; I will help thee.",
+   "web": "For I, Yahweh your God, will hold your right hand, saying to you, ‘Don’t be afraid. I will help you.’",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Psalm 118:6",
+   "book": 18,
+   "chapter": 118,
+   "start": 6,
+   "end": 6,
+   "kjv": "The LORD is on my side; I will not fear: what can man do unto me?",
+   "web": "Yahweh is on my side. I will not be afraid. What can man do to me?",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Hebrews 13:6",
+   "book": 57,
+   "chapter": 13,
+   "start": 6,
+   "end": 6,
+   "kjv": "So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me.",
+   "web": "So that with good courage we say, “The Lord is my helper. I will not fear. What can man do to me?”",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Proverbs 28:1",
+   "book": 19,
+   "chapter": 28,
+   "start": 1,
+   "end": 1,
+   "kjv": "The wicked flee when no man pursueth: but the righteous are bold as a lion.",
+   "web": "The wicked flee when no one pursues; but the righteous are as bold as a lion.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Psalm 27:14",
+   "book": 18,
+   "chapter": 27,
+   "start": 14,
+   "end": 14,
+   "kjv": "Wait on the LORD : be of good courage, and he shall strengthen thine heart: wait, I say, on the LORD .",
+   "web": "Wait for Yahweh. Be strong, and let your heart take courage. Yes, wait for Yahweh.",
+   "topics": [
+    "courage",
+    "patience"
+   ]
+  },
+  {
+   "ref": "1 Chronicles 28:20",
+   "book": 12,
+   "chapter": 28,
+   "start": 20,
+   "end": 20,
+   "kjv": "And David said to Solomon his son, Be strong and of good courage, and do it: fear not, nor be dismayed: for the LORD God, even my God, will be with thee; he will not fail thee, nor forsake thee, until thou hast finished all the work for the service of the house of the LORD .",
+   "web": "David said to Solomon his son, “Be strong and courageous, and do it. Don’t be afraid, nor be dismayed; for Yahweh God, even my God, is with you. He will not fail you, nor forsake you, until all the work for the service of Yahweh’s house is finished.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Romans 8:31",
+   "book": 44,
+   "chapter": 8,
+   "start": 31,
+   "end": 31,
+   "kjv": "What shall we then say to these things? If God be for us, who can be against us?",
+   "web": "What then shall we say about these things? If God is for us, who can be against us?",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Isaiah 54:4",
+   "book": 22,
+   "chapter": 54,
+   "start": 4,
+   "end": 4,
+   "kjv": "Fear not; for thou shalt not be ashamed: neither be thou confounded; for thou shalt not be put to shame: for thou shalt forget the shame of thy youth, and shalt not remember the reproach of thy widowhood any more.",
+   "web": "“Don’t be afraid, for you will not be ashamed. Don’t be confounded, for you will not be disappointed. For you will forget the shame of your youth. You will remember the reproach of your widowhood no more.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Psalm 112:7",
+   "book": 18,
+   "chapter": 112,
+   "start": 7,
+   "end": 7,
+   "kjv": "He shall not be afraid of evil tidings: his heart is fixed, trusting in the LORD .",
+   "web": "He will not be afraid of evil news. His heart is steadfast, trusting in Yahweh.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Acts 4:31",
+   "book": 43,
+   "chapter": 4,
+   "start": 31,
+   "end": 31,
+   "kjv": "And when they had prayed, the place was shaken where they were assembled together; and they were all filled with the Holy Ghost, and they spake the word of God with boldness.",
+   "web": "When they had prayed, the place was shaken where they were gathered together. They were all filled with the Holy Spirit, and they spoke the word of God with boldness.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "2 Chronicles 32:7",
+   "book": 13,
+   "chapter": 32,
+   "start": 7,
+   "end": 7,
+   "kjv": "Be strong and courageous, be not afraid nor dismayed for the king of Assyria, nor for all the multitude that is with him: for there be more with us than with him:",
+   "web": "“Be strong and courageous. Don’t be afraid or dismayed because of the king of Assyria, nor for all the multitude who is with him; for there is a greater one with us than with him.",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Mark 5:36",
+   "book": 40,
+   "chapter": 5,
+   "start": 36,
+   "end": 36,
+   "kjv": "As soon as Jesus heard the word that was spoken, he saith unto the ruler of the synagogue, Be not afraid, only believe.",
+   "web": "But Jesus, when he heard the message spoken, immediately said to the ruler of the synagogue, “Don’t be afraid, only believe.”",
+   "topics": [
+    "courage"
+   ]
+  },
+  {
+   "ref": "Psalm 139:14",
+   "book": 18,
+   "chapter": 139,
+   "start": 14,
+   "end": 14,
+   "kjv": "I will praise thee; for I am fearfully and wonderfully made: marvellous are thy works; and that my soul knoweth right well.",
+   "web": "I will give thanks to you, for I am fearfully and wonderfully made. Your works are wonderful. My soul knows that very well.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "2 Corinthians 5:17",
+   "book": 46,
+   "chapter": 5,
+   "start": 17,
+   "end": 17,
+   "kjv": "Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.",
+   "web": "Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold, all things have become new.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Ephesians 2:10",
+   "book": 48,
+   "chapter": 2,
+   "start": 10,
+   "end": 10,
+   "kjv": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+   "web": "For we are his workmanship, created in Christ Jesus for good works, which God prepared before that we would walk in them.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "1 Peter 2:9",
+   "book": 59,
+   "chapter": 2,
+   "start": 9,
+   "end": 9,
+   "kjv": "But ye are a chosen generation, a royal priesthood, an holy nation, a peculiar people; that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light:",
+   "web": "But you are a chosen race, a royal priesthood, a holy nation, a people for God’s own possession, that you may proclaim the excellence of him who called you out of darkness into his marvelous light.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Galatians 3:26",
+   "book": 47,
+   "chapter": 3,
+   "start": 26,
+   "end": 26,
+   "kjv": "For ye are all the children of God by faith in Christ Jesus.",
+   "web": "For you are all children of God, through faith in Christ Jesus.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "John 1:12",
+   "book": 42,
+   "chapter": 1,
+   "start": 12,
+   "end": 12,
+   "kjv": "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name:",
+   "web": "But as many as received him, to them he gave the right to become God’s children, to those who believe in his name:",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Jeremiah 1:5",
+   "book": 23,
+   "chapter": 1,
+   "start": 5,
+   "end": 5,
+   "kjv": "Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee, and I ordained thee a prophet unto the nations.",
+   "web": "“Before I formed you in the womb, I knew you. Before you were born, I sanctified you. I have appointed you a prophet to the nations.”",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Romans 8:1",
+   "book": 44,
+   "chapter": 8,
+   "start": 1,
+   "end": 1,
+   "kjv": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
+   "web": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "1 John 3:1",
+   "book": 61,
+   "chapter": 3,
+   "start": 1,
+   "end": 1,
+   "kjv": "Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.",
+   "web": "See how great a love the Father has given to us, that we should be called children of God! For this cause the world doesn’t know us, because it didn’t know him.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Colossians 3:3",
+   "book": 50,
+   "chapter": 3,
+   "start": 3,
+   "end": 3,
+   "kjv": "For ye are dead, and your life is hid with Christ in God.",
+   "web": "For you died, and your life is hidden with Christ in God.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Genesis 1:27",
+   "book": 0,
+   "chapter": 1,
+   "start": 27,
+   "end": 27,
+   "kjv": "So God created man in his own image, in the image of God created he him; male and female created he them.",
+   "web": "God created man in his own image. In God’s image he created him; male and female he created them.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Isaiah 43:4",
+   "book": 22,
+   "chapter": 43,
+   "start": 4,
+   "end": 4,
+   "kjv": "Since thou wast precious in my sight, thou hast been honourable, and I have loved thee: therefore will I give men for thee, and people for thy life.",
+   "web": "Since you have been precious and honored in my sight, and I have loved you, therefore I will give people in your place, and nations instead of your life.",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Ephesians 1:4",
+   "book": 48,
+   "chapter": 1,
+   "start": 4,
+   "end": 4,
+   "kjv": "According as he hath chosen us in him before the foundation of the world, that we should be holy and without blame before him in love:",
+   "web": "even as he chose us in him before the foundation of the world, that we would be holy and without defect before him in love,",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Romans 8:16",
+   "book": 44,
+   "chapter": 8,
+   "start": 16,
+   "end": 16,
+   "kjv": "The Spirit itself beareth witness with our spirit, that we are the children of God:",
+   "web": "The Spirit himself testifies with our spirit that we are children of God;",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "1 Corinthians 6:19",
+   "book": 45,
+   "chapter": 6,
+   "start": 19,
+   "end": 19,
+   "kjv": "What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?",
+   "web": "Or don’t you know that your body is a temple of the Holy Spirit who is in you, whom you have from God? You are not your own,",
+   "topics": [
+    "identity"
+   ]
+  },
+  {
+   "ref": "Psalm 37:7",
+   "book": 18,
+   "chapter": 37,
+   "start": 7,
+   "end": 7,
+   "kjv": "Rest in the LORD , and wait patiently for him: fret not thyself because of him who prospereth in his way, because of the man who bringeth wicked devices to pass.",
+   "web": "Rest in Yahweh, and wait patiently for him. Don’t fret because of him who prospers in his way, because of the man who makes wicked plots happen.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Galatians 6:9",
+   "book": 47,
+   "chapter": 6,
+   "start": 9,
+   "end": 9,
+   "kjv": "And let us not be weary in well doing: for in due season we shall reap, if we faint not.",
+   "web": "Let’s not be weary in doing good, for we will reap in due season, if we don’t give up.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Romans 8:25",
+   "book": 44,
+   "chapter": 8,
+   "start": 25,
+   "end": 25,
+   "kjv": "But if we hope for that we see not, then do we with patience wait for it .",
+   "web": "But if we hope for that which we don’t see, we wait for it with patience.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "James 1:3-4",
+   "book": 58,
+   "chapter": 1,
+   "start": 3,
+   "end": 4,
+   "kjv": "Knowing this , that the trying of your faith worketh patience. But let patience have her perfect work, that ye may be perfect and entire, wanting nothing.",
+   "web": "knowing that the testing of your faith produces endurance. Let endurance have its perfect work, that you may be perfect and complete, lacking in nothing.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Lamentations 3:25-26",
+   "book": 24,
+   "chapter": 3,
+   "start": 25,
+   "end": 26,
+   "kjv": "The LORD is good unto them that wait for him, to the soul that seeketh him. It is good that a man should both hope and quietly wait for the salvation of the LORD .",
+   "web": "Yahweh is good to those who wait for him, to the soul who seeks him. It is good that a man should hope and quietly wait for the salvation of Yahweh.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Ecclesiastes 7:8",
+   "book": 20,
+   "chapter": 7,
+   "start": 8,
+   "end": 8,
+   "kjv": "Better is the end of a thing than the beginning thereof: and the patient in spirit is better than the proud in spirit.",
+   "web": "Better is the end of a thing than its beginning. The patient in spirit is better than the proud in spirit.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "James 5:7",
+   "book": 58,
+   "chapter": 5,
+   "start": 7,
+   "end": 7,
+   "kjv": "Be patient therefore, brethren, unto the coming of the Lord. Behold, the husbandman waiteth for the precious fruit of the earth, and hath long patience for it, until he receive the early and latter rain.",
+   "web": "Be patient therefore, brothers, until the coming of the Lord. Behold, the farmer waits for the precious fruit of the earth, being patient over it, until it receives the early and late rain.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Psalm 40:1",
+   "book": 18,
+   "chapter": 40,
+   "start": 1,
+   "end": 1,
+   "kjv": "I waited patiently for the LORD ; and he inclined unto me, and heard my cry.",
+   "web": "I waited patiently for Yahweh. He turned to me, and heard my cry.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Colossians 1:11",
+   "book": 50,
+   "chapter": 1,
+   "start": 11,
+   "end": 11,
+   "kjv": "Strengthened with all might, according to his glorious power, unto all patience and longsuffering with joyfulness;",
+   "web": "strengthened with all power, according to the might of his glory, for all endurance and perseverance with joy,",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Habakkuk 2:3",
+   "book": 34,
+   "chapter": 2,
+   "start": 3,
+   "end": 3,
+   "kjv": "For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.",
+   "web": "For the vision is yet for the appointed time, and it hurries toward the end, and won’t prove false. Though it takes time, wait for it; because it will surely come. It won’t delay.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Hebrews 10:36",
+   "book": 57,
+   "chapter": 10,
+   "start": 36,
+   "end": 36,
+   "kjv": "For ye have need of patience, that, after ye have done the will of God, ye might receive the promise.",
+   "web": "For you need endurance so that, having done the will of God, you may receive the promise.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Proverbs 14:29",
+   "book": 19,
+   "chapter": 14,
+   "start": 29,
+   "end": 29,
+   "kjv": "He that is slow to wrath is of great understanding: but he that is hasty of spirit exalteth folly.",
+   "web": "He who is slow to anger has great understanding, but he who has a quick temper displays folly.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "2 Peter 3:9",
+   "book": 60,
+   "chapter": 3,
+   "start": 9,
+   "end": 9,
+   "kjv": "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.",
+   "web": "The Lord is not slow concerning his promise, as some count slowness; but he is patient with us, not wishing that anyone should perish, but that all should come to repentance.",
+   "topics": [
+    "patience"
+   ]
+  },
+  {
+   "ref": "Psalm 16:11",
+   "book": 18,
+   "chapter": 16,
+   "start": 11,
+   "end": 11,
+   "kjv": "Thou wilt shew me the path of life: in thy presence is fulness of joy; at thy right hand there are pleasures for evermore.",
+   "web": "You will show me the path of life. In your presence is fullness of joy. In your right hand there are pleasures forever more.",
+   "topics": [
+    "joy",
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "John 15:11",
+   "book": 42,
+   "chapter": 15,
+   "start": 11,
+   "end": 11,
+   "kjv": "These things have I spoken unto you, that my joy might remain in you, and that your joy might be full.",
+   "web": "I have spoken these things to you, that my joy may remain in you, and that your joy may be made full.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Psalm 126:3",
+   "book": 18,
+   "chapter": 126,
+   "start": 3,
+   "end": 3,
+   "kjv": "The LORD hath done great things for us; whereof we are glad.",
+   "web": "Yahweh has done great things for us, and we are glad.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Psalm 30:11",
+   "book": 18,
+   "chapter": 30,
+   "start": 11,
+   "end": 11,
+   "kjv": "Thou hast turned for me my mourning into dancing: thou hast put off my sackcloth, and girded me with gladness;",
+   "web": "You have turned my mourning into dancing for me. You have removed my sackcloth, and clothed me with gladness,",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "James 1:2",
+   "book": 58,
+   "chapter": 1,
+   "start": 2,
+   "end": 2,
+   "kjv": "My brethren, count it all joy when ye fall into divers temptations;",
+   "web": "Count it all joy, my brothers, when you fall into various temptations,",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Psalm 5:11",
+   "book": 18,
+   "chapter": 5,
+   "start": 11,
+   "end": 11,
+   "kjv": "But let all those that put their trust in thee rejoice: let them ever shout for joy, because thou defendest them: let them also that love thy name be joyful in thee.",
+   "web": "But let all those who take refuge in you rejoice. Let them always shout for joy, because you defend them. Let them also who love your name be joyful in you.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Isaiah 55:12",
+   "book": 22,
+   "chapter": 55,
+   "start": 12,
+   "end": 12,
+   "kjv": "For ye shall go out with joy, and be led forth with peace: the mountains and the hills shall break forth before you into singing, and all the trees of the field shall clap their hands.",
+   "web": "For you shall go out with joy, and be led out with peace. The mountains and the hills will break out before you into singing; and all the trees of the fields will clap their hands.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "1 Peter 1:8",
+   "book": 59,
+   "chapter": 1,
+   "start": 8,
+   "end": 8,
+   "kjv": "Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory:",
+   "web": "whom, not having known, you love. In him, though now you don’t see him, yet believing, you rejoice greatly with joy that is unspeakable and full of glory,",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Psalm 51:12",
+   "book": 18,
+   "chapter": 51,
+   "start": 12,
+   "end": 12,
+   "kjv": "Restore unto me the joy of thy salvation; and uphold me with thy free spirit.",
+   "web": "Restore to me the joy of your salvation. Uphold me with a willing spirit.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Proverbs 17:22",
+   "book": 19,
+   "chapter": 17,
+   "start": 22,
+   "end": 22,
+   "kjv": "A merry heart doeth good like a medicine: but a broken spirit drieth the bones.",
+   "web": "A cheerful heart makes good medicine, but a crushed spirit dries up the bones.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Galatians 5:22-23",
+   "book": 47,
+   "chapter": 5,
+   "start": 22,
+   "end": 23,
+   "kjv": "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, Meekness, temperance: against such there is no law.",
+   "web": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control. Against such things there is no law.",
+   "topics": [
+    "joy"
+   ]
+  },
+  {
+   "ref": "Isaiah 30:21",
+   "book": 22,
+   "chapter": 30,
+   "start": 21,
+   "end": 21,
+   "kjv": "And thine ears shall hear a word behind thee, saying, This is the way, walk ye in it, when ye turn to the right hand, and when ye turn to the left.",
+   "web": "and when you turn to the right hand, and when you turn to the left, your ears will hear a voice behind you, saying, “This is the way. Walk in it.”",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Psalm 25:4-5",
+   "book": 18,
+   "chapter": 25,
+   "start": 4,
+   "end": 5,
+   "kjv": "Shew me thy ways, O LORD ; teach me thy paths. Lead me in thy truth, and teach me: for thou art the God of my salvation; on thee do I wait all the day.",
+   "web": "Show me your ways, Yahweh. Teach me your paths. Guide me in your truth, and teach me, For you are the God of my salvation, I wait for you all day long.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Psalm 37:23",
+   "book": 18,
+   "chapter": 37,
+   "start": 23,
+   "end": 23,
+   "kjv": "The steps of a good man are ordered by the LORD : and he delighteth in his way.",
+   "web": "A man’s steps are established by Yahweh. He delights in his way.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "John 16:13",
+   "book": 42,
+   "chapter": 16,
+   "start": 13,
+   "end": 13,
+   "kjv": "Howbeit when he, the Spirit of truth, is come, he will guide you into all truth: for he shall not speak of himself; but whatsoever he shall hear, that shall he speak: and he will shew you things to come.",
+   "web": "However when he, the Spirit of truth, has come, he will guide you into all truth, for he will not speak from himself; but whatever he hears, he will speak. He will declare to you things that are coming.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Psalm 48:14",
+   "book": 18,
+   "chapter": 48,
+   "start": 14,
+   "end": 14,
+   "kjv": "For this God is our God for ever and ever: he will be our guide even unto death.",
+   "web": "For this God is our God forever and ever. He will be our guide even to death.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Isaiah 58:11",
+   "book": 22,
+   "chapter": 58,
+   "start": 11,
+   "end": 11,
+   "kjv": "And the LORD shall guide thee continually, and satisfy thy soul in drought, and make fat thy bones: and thou shalt be like a watered garden, and like a spring of water, whose waters fail not.",
+   "web": "and Yahweh will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Psalm 143:8",
+   "book": 18,
+   "chapter": 143,
+   "start": 8,
+   "end": 8,
+   "kjv": "Cause me to hear thy lovingkindness in the morning; for in thee do I trust: cause me to know the way wherein I should walk; for I lift up my soul unto thee.",
+   "web": "Cause me to hear your loving kindness in the morning, for I trust in you. Cause me to know the way in which I should walk, for I lift up my soul to you.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Proverbs 16:3",
+   "book": 19,
+   "chapter": 16,
+   "start": 3,
+   "end": 3,
+   "kjv": "Commit thy works unto the LORD , and thy thoughts shall be established.",
+   "web": "Commit your deeds to Yahweh, and your plans shall succeed.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Psalm 73:24",
+   "book": 18,
+   "chapter": 73,
+   "start": 24,
+   "end": 24,
+   "kjv": "Thou shalt guide me with thy counsel, and afterward receive me to glory.",
+   "web": "You will guide me with your counsel, and afterward receive me to glory.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Isaiah 42:16",
+   "book": 22,
+   "chapter": 42,
+   "start": 16,
+   "end": 16,
+   "kjv": "And I will bring the blind by a way that they knew not; I will lead them in paths that they have not known: I will make darkness light before them, and crooked things straight. These things will I do unto them, and not forsake them.",
+   "web": "I will bring the blind by a way that they don’t know. I will lead them in paths that they don’t know. I will make darkness light before them, and crooked places straight. I will do these things, and I will not forsake them.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "John 10:27",
+   "book": 42,
+   "chapter": 10,
+   "start": 27,
+   "end": 27,
+   "kjv": "My sheep hear my voice, and I know them, and they follow me:",
+   "web": "My sheep hear my voice, and I know them, and they follow me.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Psalm 16:8",
+   "book": 18,
+   "chapter": 16,
+   "start": 8,
+   "end": 8,
+   "kjv": "I have set the LORD always before me: because he is at my right hand, I shall not be moved.",
+   "web": "I have set Yahweh always before me. Because he is at my right hand, I shall not be moved.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Romans 12:2",
+   "book": 44,
+   "chapter": 12,
+   "start": 2,
+   "end": 2,
+   "kjv": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.",
+   "web": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God.",
+   "topics": [
+    "guidance"
+   ]
+  },
+  {
+   "ref": "Jeremiah 33:3",
+   "book": 23,
+   "chapter": 33,
+   "start": 3,
+   "end": 3,
+   "kjv": "Call unto me, and I will answer thee, and shew thee great and mighty things, which thou knowest not.",
+   "web": "‘Call to me, and I will answer you, and will show you great and difficult things, which you don’t know.’",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Matthew 7:7",
+   "book": 39,
+   "chapter": 7,
+   "start": 7,
+   "end": 7,
+   "kjv": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:",
+   "web": "“Ask, and it will be given you. Seek, and you will find. Knock, and it will be opened for you.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "1 Thessalonians 5:17",
+   "book": 51,
+   "chapter": 5,
+   "start": 17,
+   "end": 17,
+   "kjv": "Pray without ceasing.",
+   "web": "Pray without ceasing.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "James 5:16",
+   "book": 58,
+   "chapter": 5,
+   "start": 16,
+   "end": 16,
+   "kjv": "Confess your faults one to another, and pray one for another, that ye may be healed. The effectual fervent prayer of a righteous man availeth much.",
+   "web": "Confess your offenses to one another, and pray for one another, that you may be healed. The insistent prayer of a righteous person is powerfully effective.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Psalm 145:18",
+   "book": 18,
+   "chapter": 145,
+   "start": 18,
+   "end": 18,
+   "kjv": "The LORD is nigh unto all them that call upon him, to all that call upon him in truth.",
+   "web": "Yahweh is near to all those who call on him, to all who call on him in truth.",
+   "topics": [
+    "prayer",
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "1 John 5:14",
+   "book": 61,
+   "chapter": 5,
+   "start": 14,
+   "end": 14,
+   "kjv": "And this is the confidence that we have in him, that, if we ask any thing according to his will, he heareth us:",
+   "web": "This is the boldness which we have toward him, that if we ask anything according to his will, he listens to us.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Matthew 6:6",
+   "book": 39,
+   "chapter": 6,
+   "start": 6,
+   "end": 6,
+   "kjv": "But thou, when thou prayest, enter into thy closet, and when thou hast shut thy door, pray to thy Father which is in secret; and thy Father which seeth in secret shall reward thee openly.",
+   "web": "But you, when you pray, enter into your inner room, and having shut your door, pray to your Father who is in secret, and your Father who sees in secret will reward you openly.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Romans 8:26",
+   "book": 44,
+   "chapter": 8,
+   "start": 26,
+   "end": 26,
+   "kjv": "Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered.",
+   "web": "In the same way, the Spirit also helps our weaknesses, for we don’t know how to pray as we ought. But the Spirit himself makes intercession for us with groanings which can’t be uttered.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Psalm 141:2",
+   "book": 18,
+   "chapter": 141,
+   "start": 2,
+   "end": 2,
+   "kjv": "Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice.",
+   "web": "Let my prayer be set before you like incense; the lifting up of my hands like the evening sacrifice.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Hebrews 4:16",
+   "book": 57,
+   "chapter": 4,
+   "start": 16,
+   "end": 16,
+   "kjv": "Let us therefore come boldly unto the throne of grace, that we may obtain mercy, and find grace to help in time of need.",
+   "web": "Let’s therefore draw near with boldness to the throne of grace, that we may receive mercy and may find grace for help in time of need.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Mark 1:35",
+   "book": 40,
+   "chapter": 1,
+   "start": 35,
+   "end": 35,
+   "kjv": "And in the morning, rising up a great while before day, he went out, and departed into a solitary place, and there prayed.",
+   "web": "Early in the morning, while it was still dark, he rose up and went out, and departed into a deserted place, and prayed there.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Psalm 5:3",
+   "book": 18,
+   "chapter": 5,
+   "start": 3,
+   "end": 3,
+   "kjv": "My voice shalt thou hear in the morning, O LORD ; in the morning will I direct my prayer unto thee, and will look up.",
+   "web": "Yahweh, in the morning you will hear my voice. In the morning I will lay my requests before you, and will watch expectantly.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "John 15:7",
+   "book": 42,
+   "chapter": 15,
+   "start": 7,
+   "end": 7,
+   "kjv": "If ye abide in me, and my words abide in you, ye shall ask what ye will, and it shall be done unto you.",
+   "web": "If you remain in me, and my words remain in you, you will ask whatever you desire, and it will be done for you.",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Colossians 4:2",
+   "book": 50,
+   "chapter": 4,
+   "start": 2,
+   "end": 2,
+   "kjv": "Continue in prayer, and watch in the same with thanksgiving;",
+   "web": "Continue steadfastly in prayer, watching in it with thanksgiving,",
+   "topics": [
+    "prayer"
+   ]
+  },
+  {
+   "ref": "Matthew 28:20",
+   "book": 39,
+   "chapter": 28,
+   "start": 20,
+   "end": 20,
+   "kjv": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you alway, even unto the end of the world. Amen.",
+   "web": "teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Psalm 139:7-8",
+   "book": 18,
+   "chapter": 139,
+   "start": 7,
+   "end": 8,
+   "kjv": "Whither shall I go from thy spirit? or whither shall I flee from thy presence? If I ascend up into heaven, thou art there: if I make my bed in hell, behold, thou art there .",
+   "web": "Where could I go from your Spirit? Or where could I flee from your presence? If I ascend up into heaven, you are there. If I make my bed in Sheol, behold, you are there!",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Hebrews 13:5",
+   "book": 57,
+   "chapter": 13,
+   "start": 5,
+   "end": 5,
+   "kjv": "Let your conversation be without covetousness; and be content with such things as ye have: for he hath said, I will never leave thee, nor forsake thee.",
+   "web": "Be free from the love of money, content with such things as you have, for he has said, “I will in no way leave you, neither will I in any way forsake you.”",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Isaiah 43:2",
+   "book": 22,
+   "chapter": 43,
+   "start": 2,
+   "end": 2,
+   "kjv": "When thou passest through the waters, I will be with thee; and through the rivers, they shall not overflow thee: when thou walkest through the fire, thou shalt not be burned; neither shall the flame kindle upon thee.",
+   "web": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "James 4:8",
+   "book": 58,
+   "chapter": 4,
+   "start": 8,
+   "end": 8,
+   "kjv": "Draw nigh to God, and he will draw nigh to you. Cleanse your hands, ye sinners; and purify your hearts, ye double minded.",
+   "web": "Draw near to God, and he will draw near to you. Cleanse your hands, you sinners. Purify your hearts, you double-minded.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Psalm 73:28",
+   "book": 18,
+   "chapter": 73,
+   "start": 28,
+   "end": 28,
+   "kjv": "But it is good for me to draw near to God: I have put my trust in the Lord GOD , that I may declare all thy works.",
+   "web": "But it is good for me to come close to God. I have made the Lord Yahweh my refuge, that I may tell of all your works.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Exodus 33:14",
+   "book": 1,
+   "chapter": 33,
+   "start": 14,
+   "end": 14,
+   "kjv": "And he said, My presence shall go with thee , and I will give thee rest.",
+   "web": "He said, “My presence will go with you, and I will give you rest.”",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Joshua 1:5",
+   "book": 5,
+   "chapter": 1,
+   "start": 5,
+   "end": 5,
+   "kjv": "There shall not any man be able to stand before thee all the days of thy life: as I was with Moses, so I will be with thee: I will not fail thee, nor forsake thee.",
+   "web": "No man will be able to stand before you all the days of your life. As I was with Moses, so I will be with you. I will not fail you nor forsake you.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Acts 17:27",
+   "book": 43,
+   "chapter": 17,
+   "start": 27,
+   "end": 27,
+   "kjv": "That they should seek the Lord, if haply they might feel after him, and find him, though he be not far from every one of us:",
+   "web": "that they should seek the Lord, if perhaps they might reach out for him and find him, though he is not far from each one of us.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Psalm 140:13",
+   "book": 18,
+   "chapter": 140,
+   "start": 13,
+   "end": 13,
+   "kjv": "Surely the righteous shall give thanks unto thy name: the upright shall dwell in thy presence.",
+   "web": "Surely the righteous will give thanks to your name. The upright will dwell in your presence.",
+   "topics": [
+    "gods_presence"
+   ]
+  },
+  {
+   "ref": "Revelation 3:20",
+   "book": 65,
+   "chapter": 3,
+   "start": 20,
+   "end": 20,
+   "kjv": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.",
+   "web": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me.",
+   "topics": [
+    "gods_presence"
+   ]
+  }
+ ]
+}

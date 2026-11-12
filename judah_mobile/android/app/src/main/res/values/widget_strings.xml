@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="judah_widget_small_desc">Judah and today\'s verse reference</string>
+    <string name="judah_widget_medium_desc">Judah and today\'s verse</string>
+    <string name="judah_widget_large_desc">Judah, today\'s verse and your streak</string>
+</resources>

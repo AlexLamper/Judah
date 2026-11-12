@@ -1,0 +1,240 @@
+name: iOS Build & Upload to TestFlight
+
+# Same flow as BijbelQuiz: every push to main that touches the app builds and
+# uploads a TestFlight build. The build number comes from App Store Connect.
+# Judah has two signed bundles: the app (com.getjudah.app) and the widget
+# extension (com.getjudah.app.JudahWidget), so it needs two profiles.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "judah_mobile/**"
+      - ".github/workflows/ios-release.yml"
+  workflow_dispatch:
+    inputs:
+      build_name:
+        description: "Version name (e.g. 1.0.3). Blank = pubspec + App Store Connect."
+        required: false
+        default: ""
+      build_number:
+        description: "Build number. Blank = next free one from App Store Connect."
+        required: false
+        default: ""
+
+concurrency:
+  group: ios-testflight
+  cancel-in-progress: true
+
+jobs:
+  build-and-upload-ios:
+    name: Build Flutter IPA and upload to TestFlight
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Select latest stable Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.x"
+          channel: stable
+          cache: true
+
+      - name: Install Flutter dependencies
+        working-directory: judah_mobile
+        run: flutter pub get
+
+      # Safety net: the widget target is committed, but if the project file was
+      # ever regenerated this puts it back. Does nothing when it is present.
+      - name: Ensure widget extension target
+        working-directory: judah_mobile
+        run: |
+          gem list -i xcodeproj >/dev/null || gem install xcodeproj --no-document
+          ruby ios/scripts/add_widget_target.rb
+
+      # ── Code signing ───────────────────────────────────────────────────────
+      # Secrets (Settings -> Secrets and variables -> Actions):
+      #   BUILD_CERTIFICATE_BASE64               Distribution .p12 (base64)
+      #   P12_PASSWORD                           password of the .p12
+      #   BUILD_PROVISION_PROFILE_BASE64         App Store profile for com.getjudah.app
+      #   BUILD_PROVISION_PROFILE_WIDGET_BASE64  App Store profile for com.getjudah.app.JudahWidget
+      #   KEYCHAIN_PASSWORD                      any random string
+      #   APPLE_TEAM_ID
+      #   APP_STORE_CONNECT_KEY_ID / APP_STORE_CONNECT_ISSUER_ID / APP_STORE_CONNECT_API_KEY_P8
+      #   REVENUECAT_APPLE_KEY                   appl_... public SDK key
+      # Both App IDs need the App Group group.com.getjudah.app enabled before
+      # the profiles are generated.
+      - name: Import Distribution certificate
+        env:
+          BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
+          P12_PASSWORD: ${{ secrets.P12_PASSWORD }}
+          KEYCHAIN_PASSWORD: ${{ secrets.KEYCHAIN_PASSWORD }}
+        run: |
+          CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
+          KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
+          echo -n "$BUILD_CERTIFICATE_BASE64" | base64 --decode -o "$CERTIFICATE_PATH"
+          security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN_PATH"
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+          security import "$CERTIFICATE_PATH" -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN_PATH"
+          security list-keychain -d user -s "$KEYCHAIN_PATH"
+          security default-keychain -s "$KEYCHAIN_PATH"
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN_PATH"
+
+      - name: Install provisioning profiles
+        env:
+          APP_PROFILE: ${{ secrets.BUILD_PROVISION_PROFILE_BASE64 }}
+          WIDGET_PROFILE: ${{ secrets.BUILD_PROVISION_PROFILE_WIDGET_BASE64 }}
+        run: |
+          mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles
+          install_profile () {
+            local b64="$1" prefix="$2"
+            if [ -z "$b64" ]; then echo "Missing provisioning profile secret for $prefix"; exit 1; fi
+            local pp="$RUNNER_TEMP/$prefix.mobileprovision" plist="$RUNNER_TEMP/$prefix.plist"
+            echo -n "$b64" | base64 --decode -o "$pp"
+            cp "$pp" ~/Library/MobileDevice/Provisioning\ Profiles/$prefix.mobileprovision
+            security cms -D -i "$pp" > "$plist"
+            local name app_id
+            name=$(/usr/libexec/PlistBuddy -c 'Print Name' "$plist")
+            app_id=$(/usr/libexec/PlistBuddy -c 'Print Entitlements:application-identifier' "$plist")
+            if ! /usr/libexec/PlistBuddy -c 'Print Entitlements:com.apple.security.application-groups:0' "$plist" >/dev/null 2>&1; then
+              echo "::error::Profile $name has no App Group. Enable group.com.getjudah.app on ${app_id#*.} and regenerate it."
+              exit 1
+            fi
+            echo "${prefix}_PP_NAME=$name" >> $GITHUB_ENV
+            echo "${prefix}_BUNDLE_ID=${app_id#*.}" >> $GITHUB_ENV
+            echo "Installed $name for ${app_id#*.}"
+          }
+          install_profile "$APP_PROFILE" APP
+          install_profile "$WIDGET_PROFILE" WIDGET
+
+      - name: Resolve version and build number
+        env:
+          APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          APP_STORE_CONNECT_API_KEY_P8: ${{ secrets.APP_STORE_CONNECT_API_KEY_P8 }}
+          INPUT_BUILD_NAME: ${{ github.event.inputs.build_name }}
+          INPUT_BUILD_NUMBER: ${{ github.event.inputs.build_number }}
+          PUBSPEC_PATH: judah_mobile/pubspec.yaml
+        run: |
+          export APP_BUNDLE_ID="$APP_BUNDLE_ID"
+          python3 -m venv "$RUNNER_TEMP/versionvenv"
+          "$RUNNER_TEMP/versionvenv/bin/python" -m pip install --quiet --disable-pip-version-check pyjwt cryptography
+          "$RUNNER_TEMP/versionvenv/bin/python" .github/workflows/scripts/resolve_version.py
+
+      - name: Create ExportOptions.plist
+        env:
+          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          cat > /tmp/ExportOptions.plist <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>signingStyle</key><string>manual</string>
+            <key>teamID</key><string>${TEAM_ID}</string>
+            <key>signingCertificate</key><string>Apple Distribution</string>
+            <key>uploadSymbols</key><true/>
+            <key>provisioningProfiles</key>
+            <dict>
+              <key>${APP_BUNDLE_ID}</key><string>${APP_PP_NAME}</string>
+              <key>${WIDGET_BUNDLE_ID}</key><string>${WIDGET_PP_NAME}</string>
+            </dict>
+          </dict>
+          </plist>
+          EOF
+
+      - name: Build Flutter iOS (unsigned)
+        working-directory: judah_mobile
+        env:
+          REVENUECAT_APPLE_KEY: ${{ secrets.REVENUECAT_APPLE_KEY }}
+        run: |
+          echo "Building $BUILD_NAME ($BUILD_NUMBER)"
+          if [ -z "${REVENUECAT_APPLE_KEY:-}" ]; then
+            echo "::error::Missing required secret: REVENUECAT_APPLE_KEY"
+            exit 1
+          fi
+          flutter build ios --release --no-codesign \
+            --build-name="$BUILD_NAME" \
+            --build-number="$BUILD_NUMBER" \
+            --dart-define=REVENUECAT_APPLE_KEY="$REVENUECAT_APPLE_KEY"
+
+      - name: Archive and export signed IPA
+        working-directory: judah_mobile/ios
+        env:
+          TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          xcodebuild -workspace Runner.xcworkspace \
+            -scheme Runner \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/Runner.xcarchive" \
+            archive \
+            DEVELOPMENT_TEAM="$TEAM_ID" \
+            FLUTTER_BUILD_NAME="$BUILD_NAME" \
+            FLUTTER_BUILD_NUMBER="$BUILD_NUMBER" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY=""
+
+          xcodebuild -exportArchive \
+            -archivePath "$RUNNER_TEMP/Runner.xcarchive" \
+            -exportOptionsPlist /tmp/ExportOptions.plist \
+            -exportPath ../build/ios/ipa
+
+          IPA_PATH=$(find ../build/ios/ipa -name "*.ipa" | head -1)
+          [ -n "${IPA_PATH:-}" ] || { echo "No IPA file produced."; exit 1; }
+
+          # The widget only works when both bundles carry the App Group.
+          TMP=$RUNNER_TEMP/ipa_unzip; rm -rf "$TMP"; mkdir -p "$TMP"; unzip -q "$IPA_PATH" -d "$TMP"
+          APP=$(find "$TMP/Payload" -maxdepth 1 -name "*.app" | head -1)
+          for bundle in "$APP" "$APP/PlugIns/JudahWidget.appex"; do
+            if [ ! -d "$bundle" ]; then echo "::error::Missing $bundle in IPA"; exit 1; fi
+            if codesign -d --entitlements :- "$bundle" 2>/dev/null | grep -q "group.com.getjudah.app"; then
+              echo "App Group present in $(basename "$bundle")"
+            else
+              echo "::warning::App Group missing in $(basename "$bundle") - the widget will show no data."
+            fi
+          done
+
+      - name: Upload IPA to TestFlight
+        env:
+          APP_STORE_CONNECT_KEY_ID: ${{ secrets.APP_STORE_CONNECT_KEY_ID }}
+          APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
+          APP_STORE_CONNECT_API_KEY_P8: ${{ secrets.APP_STORE_CONNECT_API_KEY_P8 }}
+        run: |
+          set -euo pipefail
+          KEY_DIR="$HOME/.appstoreconnect/private_keys"
+          mkdir -p "$KEY_DIR"
+          echo -n "$APP_STORE_CONNECT_API_KEY_P8" | base64 --decode -o "$KEY_DIR/AuthKey_${APP_STORE_CONNECT_KEY_ID}.p8"
+          IPA_PATH=$(find judah_mobile/build/ios/ipa -name "*.ipa" | head -1)
+          UPLOAD_LOG="$RUNNER_TEMP/altool-upload.log"
+          set +e
+          xcrun altool --upload-app --type ios --file "$IPA_PATH" \
+            --apiKey "$APP_STORE_CONNECT_KEY_ID" --apiIssuer "$APP_STORE_CONNECT_ISSUER_ID" \
+            --verbose 2>&1 | tee "$UPLOAD_LOG"
+          ALTOOL_EXIT=${PIPESTATUS[0]}
+          set -e
+          if [ "$ALTOOL_EXIT" -ne 0 ] || grep -qiE "UPLOAD FAILED|Failed to upload package|ERROR:" "$UPLOAD_LOG"; then
+            REASON=$(awk -F'"' '/description/ {print $(NF-1)}' "$UPLOAD_LOG" | sort -u | head -5)
+            echo "::error::TestFlight upload failed as $BUILD_NAME ($BUILD_NUMBER)."
+            [ -n "${REASON:-}" ] && echo "$REASON" | while read -r line; do echo "::error::$line"; done
+            exit 1
+          fi
+          echo "Upload accepted by App Store Connect."
+
+      - name: Clean up keychain and profiles
+        if: always()
+        run: |
+          security delete-keychain $RUNNER_TEMP/app-signing.keychain-db || true
+          rm -f ~/Library/MobileDevice/Provisioning\ Profiles/APP.mobileprovision \
+                ~/Library/MobileDevice/Provisioning\ Profiles/WIDGET.mobileprovision
+          rm -f "$HOME/.appstoreconnect/private_keys/AuthKey_${{ secrets.APP_STORE_CONNECT_KEY_ID }}.p8"
