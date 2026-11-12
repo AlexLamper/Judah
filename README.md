@@ -36,28 +36,21 @@ widget code applies the same mood/scene rules as `judah_state.dart`.
 - Moods: happy, sad (a full day skipped), sleepy (22:00-05:00), praying (30
   minutes after a prayer, in the app only).
 
-## Setup checklist
+## Setup status
 
-### Apple
-1. App ID `com.getjudah.app` and `com.getjudah.app.JudahWidget`, both with the
-   App Group `group.com.getjudah.app`.
-2. App Store provisioning profile for each App ID.
-3. App in App Store Connect: "Judah: Bible Verse Widget".
-4. Subscriptions: yearly (7-day free trial) and monthly in one group.
+Done (Nov 2026):
+- Apple: App IDs `com.getjudah.app` + `com.getjudah.app.JudahWidget`, both with App Group `group.com.getjudah.app`
+- App Store Connect: app "Judah: Bible Verse Widget" (SKU `judah-ios`), subscription group "Judah Pro" with
+  `com.getjudah.app.pro.yearly` ($19.99, 1-week free trial) and `com.getjudah.app.pro.monthly` ($3.99)
+- RevenueCat: project "Judah", entitlement `judah_pro`, offering `default` with `$rc_annual` + `$rc_monthly`;
+  the public iOS SDK key is the default in `lib/services/purchases.dart`
 
-### RevenueCat
-1. Project "Judah", iOS + Android apps.
-2. Entitlement `pro`, offering `default` with `$rc_annual` and `$rc_monthly`.
-3. Design the paywall in the dashboard (the app shows it with `presentPaywall`).
-
-### GitHub secrets
-iOS: `BUILD_CERTIFICATE_BASE64`, `P12_PASSWORD`, `KEYCHAIN_PASSWORD`,
-`BUILD_PROVISION_PROFILE_BASE64`, `BUILD_PROVISION_PROFILE_WIDGET_BASE64`,
-`APPLE_TEAM_ID`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`,
-`APP_STORE_CONNECT_API_KEY_P8`, `REVENUECAT_APPLE_KEY`.
-
-Android: `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASSWORD`,
-`ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`, `REVENUECAT_GOOGLE_KEY`.
+Still to do:
+- GitHub secrets for iOS CI (cloud signing, no certificates needed):
+  `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_API_KEY_P8` (base64 of the .p8)
+- A review screenshot on both subscriptions in App Store Connect (status "Missing Metadata" until then)
+- Design the paywall in the RevenueCat dashboard (the app shows it with `presentPaywall`)
+- Android: Play Console app + `REVENUECAT_GOOGLE_KEY` and keystore secrets
 
 ## Local development
 

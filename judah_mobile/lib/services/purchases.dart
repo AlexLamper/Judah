@@ -8,16 +8,20 @@ import 'package:purchases_ui_flutter/purchases_ui_flutter.dart';
 /// build time with --dart-define (GitHub Actions secrets in CI).
 ///
 /// Dashboard setup for Judah:
-/// - entitlement `pro`
+/// - entitlement `judah_pro` (RevenueCat project "Judah")
 /// - offering `default` with packages `$rc_annual` ($19.99, 7-day free trial)
 ///   and `$rc_monthly`
 /// - a paywall designed in the RevenueCat dashboard (shown by [showPaywall])
 class JudahPurchases {
   JudahPurchases._();
 
-  static const entitlement = 'pro';
+  static const entitlement = 'judah_pro';
 
-  static const _appleKey = String.fromEnvironment('REVENUECAT_APPLE_KEY');
+  // Public SDK key (safe to ship in the app); a --dart-define overrides it.
+  static const _appleKey = String.fromEnvironment(
+    'REVENUECAT_APPLE_KEY',
+    defaultValue: 'appl_PReMxojoIGAEcNjkFYkfkTKZGDG',
+  );
   static const _googleKey = String.fromEnvironment('REVENUECAT_GOOGLE_KEY');
 
   /// Debug builds without keys can unlock Pro locally, so every screen and the
