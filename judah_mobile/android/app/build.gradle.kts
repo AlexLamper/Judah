@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.getjudah.app"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 37 // flutter_local_notifications and androidx.core 1.19 need 37
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
