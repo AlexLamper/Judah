@@ -101,7 +101,18 @@ jobs:
       - name: Write App Store Connect API key
         run: |
           KEY_PATH="$RUNNER_TEMP/AuthKey_${APP_STORE_CONNECT_KEY_ID}.p8"
-          echo -n "$APP_STORE_CONNECT_API_KEY_P8" | base64 --decode -o "$KEY_PATH"
+          # Accept the secret either as the raw .p8 text or as base64 of it.
+          python3 - "$KEY_PATH" <<'PY'
+          import base64, os, sys
+          raw = os.environ["APP_STORE_CONNECT_API_KEY_P8"].strip()
+          if "BEGIN PRIVATE KEY" not in raw:
+              raw = base64.b64decode("".join(raw.split())).decode().strip()
+          if "BEGIN PRIVATE KEY" not in raw:
+              sys.exit("APP_STORE_CONNECT_API_KEY_P8 is not a .p8 private key (raw or base64).")
+          open(sys.argv[1], "w").write(raw + "\n")
+          PY
+          # Hand the decoded key to the version script too.
+          echo "ASC_P8_B64=$(base64 < "$KEY_PATH" | tr -d '\n')" >> "$GITHUB_ENV"
           mkdir -p "$HOME/.appstoreconnect/private_keys"
           cp "$KEY_PATH" "$HOME/.appstoreconnect/private_keys/"
           echo "ASC_KEY_PATH=$KEY_PATH" >> "$GITHUB_ENV"
@@ -110,6 +121,7 @@ jobs:
         env:
           INPUT_BUILD_NAME: ${{ github.event.inputs.build_name }}
           INPUT_BUILD_NUMBER: ${{ github.event.inputs.build_number }}
+          APP_STORE_CONNECT_API_KEY_P8: ${{ env.ASC_P8_B64 }}
           PUBSPEC_PATH: judah_mobile/pubspec.yaml
         run: |
           python3 -m venv "$RUNNER_TEMP/versionvenv"
